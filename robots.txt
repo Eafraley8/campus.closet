@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eafraley8.github.io/campus.closet/sitemap.xml
