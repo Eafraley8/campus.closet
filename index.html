@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hawkeye Hanger | Iowa City Peer-to-Peer Closet Exchange</title>
+    <title>Hawkeye Hanger | How It Works & Iowa City Closet Exchange</title>
     <style>
         :root {
             --primary-color: #111111;
@@ -121,6 +121,61 @@
             color: var(--text-muted);
             max-width: 700px;
             margin: 0 auto 20px auto;
+        }
+
+        .instructions-section {
+            background-color: #FFFFFF;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px 20px;
+            margin-bottom: 30px;
+        }
+
+        .instructions-section h2 {
+            font-size: 1.6rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .step-card {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .step-number {
+            display: inline-block;
+            background-color: var(--accent-gold);
+            color: var(--primary-color);
+            font-weight: 800;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            border-radius: 50%;
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+
+        .step-card h3 {
+            font-size: 1.15rem;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+        }
+
+        .step-card p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
         }
 
         .grid-3 {
@@ -257,6 +312,32 @@
             <h1>Iowa City’s Student Closet Exchange</h1>
             <p>Skip expensive retail prices and shipping delays. Hawkeye Hanger lets University of Iowa students rent and buy formal wear, game day attire, and professional suits directly from peers on campus.</p>
             <a href="dress-rental.html" class="btn">Explore Rentals</a>
+        </section>
+
+        <section class="instructions-section">
+            <h2>How Hawkeye Hanger Works</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <span class="step-number">1</span>
+                    <h3>Browse Listings</h3>
+                    <p>Filter by categories like formal dresses, game day outfits, or professional suits uploaded by students living across campus and downtown Iowa City.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">2</span>
+                    <h3>Connect & Request</h3>
+                    <p>Select your dates for a weekend rental or arrange a direct purchase with the student lender through our verified platform profile.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">3</span>
+                    <h3>Local Campus Pickup</h3>
+                    <p>Meet up at convenient campus locations like the Iowa Memorial Union (IMU), residence hall lobbies, or the Ped Mall with zero shipping fees.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">4</span>
+                    <h3>Return or Keep</h3>
+                    <p>Wear your outfit for your event, date party, or interview, then return rented items clean to the student lender at the end of the weekend.</p>
+                </div>
+            </div>
         </section>
 
         <section class="grid-3">
